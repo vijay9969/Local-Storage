@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    var num=[1,2,3,4,5,6];
+    
+    // num=JSON.stringify(num);
+    localStorage.setItem("arrOfNum",JSON.stringify(num));
+    var getArr= localStorage.getItem("arrOfNum");
+    console.log(typeof getArr);
+
+    
+// javascript object notetion;
+// JSON -universal dat format
+// backend -send data in form of json
+// frontend -Accept JSON
+// JSON vs Object
+// var student ={ student:"vivek",student1:"sanjay"};
+// var studentJSON ={ "student":"vivek","student1":"sanjay"};
+// JSON.stringify();
+</script>

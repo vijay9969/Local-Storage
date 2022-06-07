@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Local Storage</h1>
+    <p></p>
+</body>
+</html>
+<script>
+    localStorage.setItem("student-1","Vijay");
+    localStorage.setItem("student-2","Sumit");
+    localStorage.setItem("student-3","Rohit");
+    localStorage.setItem("student-1-mobile",9657625865);
+    localStorage.setItem("student-2-mobile",7218307306);
+    localStorage.setItem("student-3-mobile",8446755756);
+    var name=localStorage.getItem("student-1");
+    var mobile=localStorage.getItem("student-1-mobile");
+    document.querySelector("p").innerText=name+":- "+mobile;
+
+</script>
